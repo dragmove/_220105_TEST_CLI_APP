@@ -1,0 +1,27 @@
+{
+  "name": "hello-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragmove/_220105_TEST_CLI_APP.git"
+  },
+  "author": "dragmove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragmove/_220105_TEST_CLI_APP/issues"
+  },
+  "homepage": "https://github.com/dragmove/_220105_TEST_CLI_APP#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^2.4.0",
+    "yargs": "^17.3.1"
+  }
+}
